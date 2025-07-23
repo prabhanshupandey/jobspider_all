@@ -6,5 +6,5 @@ jobspider_backend/node_modules/
 *.log
 *.env
 dist/
-build/
+build
 .DS_Store
