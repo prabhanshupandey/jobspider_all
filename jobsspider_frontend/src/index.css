@@ -1,0 +1,165 @@
+/* 
+.textMove{
+  float:right;
+  position: relative;
+  left:120px;
+  overflow:hidden;
+  margin-top:20px;
+  font-family: "Ubuntu";
+  color:transparent;
+  -webkit-text-stroke:0.3px,grey; 
+  font-size:45px;
+  color:#ccc;
+  width:260px;
+  text-wrap:'nowrap';
+  height:60px;
+  animation:outAnimation 1s 0.5s ease-out forwards;
+}
+@keyframes outAnimation{
+  to{
+    left:20%;
+    width:310px;
+  }
+ 
+}
+.text{
+  float:right;
+  position: relative;
+  left:120px;
+  overflow:hidden;
+  margin-top:20px;
+  font-family: "Ubuntu";
+  font-size:50px;
+  color:transparent;
+  -webkit-text-stroke:0.3px,rgb(210, 199, 199); 
+   width:260px;
+  text-wrap:'nowrap';
+  height:60px;
+  animation:inAnimation 1s 0.5s ease-out backwards;
+}
+@keyframes inAnimation {
+  from{
+    left:20%;
+    width:310px;
+  
+  }
+   to{
+    right:0%;
+    width:260px;
+    overflow: hidden;
+   }
+} */
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.textMove {
+  float: right;
+  position: relative;
+  left: 120px;
+  overflow: hidden;
+  margin-top: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ccc;
+  width: 260px;
+  text-wrap: nowrap;
+  height: 60px;
+  animation: outAnimation 1s 0.5s ease-out forwards;
+}
+
+@keyframes outAnimation {
+  to {
+    left: 20%;
+    width: 310px;
+
+  }
+}
+
+.text {
+  float: right;
+  position: relative;
+  left: 120px;
+  overflow: hidden;
+  margin-top: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ccc;
+  width: 260px;
+  text-wrap: nowrap;
+  height: 60px;
+  animation: inAnimation 1s 0.5s ease-out backwards;
+}
+
+@keyframes inAnimation {
+  from {
+    left: 20%;
+    width: 310px;
+  }
+
+  to {
+    right: 0%;
+    width: 260px;
+    /* overflow: hidden; */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .panel-body {
+  height:830px; width: 600px;
+  overflow: hidden;
+  transform: rotate(90deg);
+  transform-origin: 188px 241px 0;
+}
+ .t1 {
+      max-height: 390px;
+      overflow: scroll;
+  }
+  .t2 {
+      height: 320px;
+      width: 720px;
+  } */
+
+  html, body {
+   
+    overflow-x: hidden!important; 
+ 
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+   
+  }
+  
